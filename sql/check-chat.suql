@@ -1,0 +1,4 @@
+LET $id = (SELECT VALUE id FROM users WHERE <string> $input.user = id);
+LET $id = (function($id) {return arguments[0][0] });
+
+SELECT VALUE <string> id FROM chats WHERE $id INSIDE members && $input1 INSIDE members && type = "personal";

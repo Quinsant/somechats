@@ -1,0 +1,6 @@
+LET $id = (SELECT VALUE id FROM users WHERE <string> $input.user = id);
+LET $id = (function($id) {return arguments[0][0] });
+
+LET $personal = (SELECT <string> id, type, members[WHERE id IS NOT $id].avatar as avatar, members[WHERE id IS NOT $id].nickname as nickname, update, members[WHERE id IS NOT $id].online as online FROM chats WHERE (type = "personal") && ($id INSIDE members));
+
+SELECT * FROM $personal ORDER BY update DESC;

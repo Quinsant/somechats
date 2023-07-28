@@ -1,0 +1,4 @@
+LET $id = (SELECT VALUE id FROM users WHERE <string> $input.user = id);
+LET $id = (function($id) {return arguments[0][0] });
+
+SELECT <string> id, members[WHERE id IS NOT $id].avatar as avatar, members[WHERE id IS NOT $id].nickname as nickname FROM chats WHERE (id = type::thing("chats", $input1)) && ($id INSIDE members);

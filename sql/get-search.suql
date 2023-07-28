@@ -1,0 +1,8 @@
+LET $alln = (SELECT VALUE id FROM notices WHERE user = $input.user AND type.key != "friendAnswer");
+LET $notices = (SELECT online, nickname, avatar, login, <string> id, "notice" as wheres FROM users WHERE notices ANYINSIDE $alln);
+LET $friends = (SELECT online, nickname, avatar, login, <string> id, "friend" as wheres FROM users WHERE $input.user INSIDE friends);
+
+LET $all = (SELECT <string> id, online, login, nickname, avatar, "all" as wheres FROM users WHERE id != $input.user AND notices NONEINSIDE $alln AND $input.user NOTINSIDE friends);
+
+LET $na = array::concat($all, $notices);
+SELECT * FROM array::concat($na, $friends);

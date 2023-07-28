@@ -1,0 +1,16 @@
+LET $id = (SELECT VALUE id FROM users WHERE <string> $input.user = id);
+LET $id = (function($id) {return arguments[0][0] });
+
+LET $chat = (SELECT VALUE id FROM chats WHERE $id INSIDE members && $input1 INSIDE members && type = "personal");
+LET $chat1 = (function($chat) {return arguments[0][0] });
+DELETE messages WHERE id INSIDE $chat1.messages;
+
+LET $user_chat = (SELECT * FROM $id.chats WHERE $chat INSIDE chat);
+UPDATE $id SET chats = array::remove($parant.chats, $user_chat);
+LET $user_chat = (SELECT * FROM $input1.chats WHERE $chat INSIDE chat);
+UPDATE $input1 SET chats = array::remove($parant.chats, $user_chat);
+
+DELETE $chat;
+
+UPDATE $id SET friends -= $input1;
+UPDATE $input1 SET friends -= $id;

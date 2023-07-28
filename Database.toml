@@ -1,0 +1,6 @@
+host = "0.0.0.0"
+port= "9000"
+login = "root"
+password = "root"
+namespace = "webchat"
+database = "webchat"

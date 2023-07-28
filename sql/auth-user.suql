@@ -1,0 +1,4 @@
+LET $id = (SELECT VALUE id FROM users WHERE login = <string> $login );
+LET $id = (function($id) {return arguments[0][0] });
+
+CREATE sessions SET user = $id, addrs = <string> $addr, datetime = time::now() RETURN VALUE <string> id as token;

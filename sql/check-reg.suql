@@ -1,0 +1,5 @@
+LET $login = (SELECT id FROM users WHERE login = <string> $input);
+
+IF count($login) == 0 THEN (true) 
+ELSE (false) 
+END 

@@ -1,0 +1,21 @@
+[package]
+name = "websocket-chat"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+futures-util = "0.3.26"
+tokio-tungstenite = "0.18.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = { version = "1.0", default-features = false, features = ["alloc"] }
+base64 = "0.21.0"
+rsa = "0.8.1"
+pkcs8 = {version  = "0.9.0", features = ["encryption"]}
+rand = "0.8.5"
+
+[dependencies.surrealdb]
+version = "1.0.0-beta.9+20230402"
+features = ["protocol-http"]

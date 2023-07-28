@@ -1,0 +1,4 @@
+LET $id = (SELECT VALUE user FROM sessions WHERE <string> $input INSIDE id);
+LET $id = (function($id) {return arguments[0][0] });
+
+SELECT <string> id, avatar, online, login, nickname FROM $id.friends;

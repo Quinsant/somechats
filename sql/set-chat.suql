@@ -1,0 +1,11 @@
+LET $id = (SELECT VALUE id FROM users WHERE <string> $input.user = id);
+LET $id = (function($id) {return arguments[0][0] });
+
+LET $chat = (CREATE chats SET members += [$id, $user], messages = [], update = time::unix(), type = "personal", private_key = <string> $private_key, public_key = <string> $public_key RETURN id);
+SELECT VALUE type::string(id) FROM $chat;
+LET $chat = (function($chat) {return arguments[0]["id"] });
+
+UPDATE $id SET chats += {chat: $chat, password: <string> $me_key};
+UPDATE $user SET chats += {chat: $chat, password: <string> $user_key};
+
+-- LET $personal = (SELECT id, type, members[WHERE id IS NOT users:fdf8vs9lm8ixk58s0t3c].avatar as avatar, message FROM chats WHERE type = "personal");

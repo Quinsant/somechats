@@ -1,0 +1,9 @@
+LET $id = (SELECT VALUE id FROM users WHERE $input.user = id);
+LET $id = (function($id) {return arguments[0][0] });
+
+LET $notice = (SELECT VALUE id FROM notices WHERE id INSIDE $input1.notices AND user = $id);
+LET $notice = (function($notice) {return arguments[0][0]});
+
+DELETE $notice;
+UPDATE $input1 SET notices -= <string> $notice;
+

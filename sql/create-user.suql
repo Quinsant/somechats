@@ -1,0 +1,5 @@
+LET $user = (CREATE users SET login = <string> $login, password = <string> $password, nickname = <string> $login, public_key = <string> $pub_key, private_key = <string> $priv_key, theme = null, friends = [], notices = [], chats = [], avatar = null RETURN id);
+
+LET $user = (function($user) {return arguments[0]["id"] });
+
+CREATE sessions SET user = $user, addrs = <string> $addr, datetime = time::now() RETURN VALUE <string> id as token;

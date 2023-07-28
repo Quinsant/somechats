@@ -1,0 +1,4 @@
+/target
+/Cargo.lock
+/webchat-auth/node_modules
+/webchat-home/node_modules

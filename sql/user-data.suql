@@ -1,0 +1,10 @@
+LET $id = (SELECT VALUE user FROM sessions WHERE <string> $input INSIDE id);
+LET $id = (function($id) {return arguments[0][0] });
+
+UPDATE $id SET online = true RETURN NONE;
+
+LET $data = (SELECT mode, primary, secondary FROM theme:default); 
+
+SELECT avatar, online, login, nickname, count(notices) as notices, (IF theme IS null THEN $data ELSE theme END) as theme FROM $id;
+
+UPDATE sessions SET datetime = time::now() + 3h WHERE id = <string> $input;

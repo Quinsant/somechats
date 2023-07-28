@@ -1,0 +1,52 @@
+[debug]
+address = "192.168.0.108"
+port = 8000
+workers = 16
+max_blocking = 512
+keep_alive = 5
+ident = "Rocket"
+log_level = "debug"
+temp_dir = "temp"
+cli_colors = true
+## NOTE: Don't (!) use this key! Generate your own!
+secret_key = "0AG6Al4lVSKRw+QLyZQ/yeRoQgFoIpiGSIf1qynjErU="
+    
+[debug.limits]
+form = "64Mib"
+json = "10 MiB"
+png = "10 MiB"
+gif = "10 MiB"
+msgpack = "2 MiB"
+data-form = "64MiB"
+
+[debug.shutdown]
+ctrlc = true
+signals = ["term", "hup"]
+grace = 5
+mercy = 5
+
+[release]
+address = "192.168.0.108"
+port = 8000
+workers = 16
+max_blocking = 512
+keep_alive = 5
+ident = "Rocket"
+log_level = "normal"
+temp_dir = "temp"
+cli_colors = true
+## NOTE: Don't (!) use this key! Generate your own!
+secret_key = "0AG6Al4lVSKRw+QLyZQ/ueRoQgFoIpiGSIf1qynjErU="
+    
+[release.limits]
+form = "64 kB"
+json = "100 MiB"
+msgpack = "2 MiB"
+"file/jpg" = "200 MiB"
+"file/png" = "200 MiB"
+
+[release.shutdown]
+ctrlc = true
+signals = ["term", "hup"]
+grace = 5
+mercy = 5

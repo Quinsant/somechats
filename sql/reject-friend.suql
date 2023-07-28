@@ -1,0 +1,13 @@
+LET $id = (SELECT VALUE id FROM users WHERE <string> $input.user = id);
+LET $id = (function($id) {return arguments[0][0] });
+
+LET $notice = (SELECT VALUE id FROM notices WHERE id INSIDE $id.notices AND user = $input1);
+LET $notice = (function($notice) {return arguments[0][0] });
+
+DELETE $notice;
+UPDATE $id SET notices -= <string> $notice;
+
+LET $notice = (CREATE notices SET user = $id, type = {key: "friendAnswer", answer: false}, time = time::now() RETURN <string> id);
+LET $notice = (function($notice) {return arguments[0]["id"]});
+
+UPDATE $input1 SET notices += $notice RETURN true as success;
