@@ -1,5 +1,5 @@
 [debug]
-address = "192.168.0.108"
+address = "0.0.0.0"
 port = 8000
 workers = 16
 max_blocking = 512
@@ -26,7 +26,7 @@ grace = 5
 mercy = 5
 
 [release]
-address = "192.168.0.108"
+address = "0.0.0.0"
 port = 8000
 workers = 16
 max_blocking = 512
