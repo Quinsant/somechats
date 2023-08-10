@@ -1,0 +1,106 @@
+2023/07/29-12:07:24.227988 2e2c RocksDB version: 7.9.2
+2023/07/29-12:07:24.229061 2e2c Compile date 2022-12-22 09:30:39
+2023/07/29-12:07:24.229790 2e2c DB SUMMARY
+2023/07/29-12:07:24.229822 2e2c DB Session ID:  33YI97Y8SILFSVUDSU6C
+2023/07/29-12:07:24.231820 2e2c CURRENT file:  CURRENT
+2023/07/29-12:07:24.231868 2e2c IDENTITY file:  IDENTITY
+2023/07/29-12:07:24.231975 2e2c MANIFEST file:  MANIFEST-014599 size: 513 Bytes
+2023/07/29-12:07:24.232002 2e2c SST files in C:\Users\Quinsant\Desktop\somechats\webchat.db dir, Total Num: 3, files: 014553.sst 014572.sst 014585.sst 
+2023/07/29-12:07:24.232024 2e2c Write Ahead Log file in C:\Users\Quinsant\Desktop\somechats\webchat.db: 014586.log size: 0 ; 014590.log size: 0 ; 014594.log size: 0 ; 014598.log size: 959579 ; 
+2023/07/29-12:07:24.232222 2e2c                         Options.error_if_exists: 0
+2023/07/29-12:07:24.232231 2e2c                       Options.create_if_missing: 1
+2023/07/29-12:07:24.232237 2e2c                         Options.paranoid_checks: 1
+2023/07/29-12:07:24.232242 2e2c             Options.flush_verify_memtable_count: 1
+2023/07/29-12:07:24.232248 2e2c                               Options.track_and_verify_wals_in_manifest: 0
+2023/07/29-12:07:24.232254 2e2c        Options.verify_sst_unique_id_in_manifest: 1
+2023/07/29-12:07:24.232259 2e2c                                     Options.env: 00000264207B9F10
+2023/07/29-12:07:24.232266 2e2c                                      Options.fs: WinFS
+2023/07/29-12:07:24.232271 2e2c                                Options.info_log: 0000026420724000
+2023/07/29-12:07:24.232277 2e2c                Options.max_file_opening_threads: 16
+2023/07/29-12:07:24.232282 2e2c                              Options.statistics: 0000000000000000
+2023/07/29-12:07:24.232288 2e2c                               Options.use_fsync: 0
+2023/07/29-12:07:24.232293 2e2c                       Options.max_log_file_size: 0
+2023/07/29-12:07:24.232299 2e2c                  Options.max_manifest_file_size: 1073741824
+2023/07/29-12:07:24.232305 2e2c                   Options.log_file_time_to_roll: 0
+2023/07/29-12:07:24.232310 2e2c                       Options.keep_log_file_num: 1000
+2023/07/29-12:07:24.232316 2e2c                    Options.recycle_log_file_num: 0
+2023/07/29-12:07:24.232321 2e2c                         Options.allow_fallocate: 1
+2023/07/29-12:07:24.232327 2e2c                        Options.allow_mmap_reads: 0
+2023/07/29-12:07:24.232332 2e2c                       Options.allow_mmap_writes: 0
+2023/07/29-12:07:24.232338 2e2c                        Options.use_direct_reads: 0
+2023/07/29-12:07:24.232343 2e2c                        Options.use_direct_io_for_flush_and_compaction: 0
+2023/07/29-12:07:24.232349 2e2c          Options.create_missing_column_families: 0
+2023/07/29-12:07:24.232354 2e2c                              Options.db_log_dir: 
+2023/07/29-12:07:24.232360 2e2c                                 Options.wal_dir: 
+2023/07/29-12:07:24.232365 2e2c                Options.table_cache_numshardbits: 6
+2023/07/29-12:07:24.232372 2e2c                         Options.WAL_ttl_seconds: 0
+2023/07/29-12:07:24.232377 2e2c                       Options.WAL_size_limit_MB: 0
+2023/07/29-12:07:24.232382 2e2c                        Options.max_write_batch_group_size_bytes: 1048576
+2023/07/29-12:07:24.232388 2e2c             Options.manifest_preallocation_size: 4194304
+2023/07/29-12:07:24.232393 2e2c                     Options.is_fd_close_on_exec: 1
+2023/07/29-12:07:24.232399 2e2c                   Options.advise_random_on_open: 1
+2023/07/29-12:07:24.232404 2e2c                    Options.db_write_buffer_size: 0
+2023/07/29-12:07:24.232409 2e2c                    Options.write_buffer_manager: 0000026422324110
+2023/07/29-12:07:24.232415 2e2c         Options.access_hint_on_compaction_start: 1
+2023/07/29-12:07:24.232420 2e2c           Options.random_access_max_buffer_size: 1048576
+2023/07/29-12:07:24.232425 2e2c                      Options.use_adaptive_mutex: 0
+2023/07/29-12:07:24.232431 2e2c                            Options.rate_limiter: 0000000000000000
+2023/07/29-12:07:24.232437 2e2c     Options.sst_file_manager.rate_bytes_per_sec: 0
+2023/07/29-12:07:24.232490 2e2c                       Options.wal_recovery_mode: 2
+2023/07/29-12:07:24.232499 2e2c                  Options.enable_thread_tracking: 0
+2023/07/29-12:07:24.232505 2e2c                  Options.enable_pipelined_write: 0
+2023/07/29-12:07:24.232510 2e2c                  Options.unordered_write: 0
+2023/07/29-12:07:24.232515 2e2c         Options.allow_concurrent_memtable_write: 1
+2023/07/29-12:07:24.232521 2e2c      Options.enable_write_thread_adaptive_yield: 1
+2023/07/29-12:07:24.232526 2e2c             Options.write_thread_max_yield_usec: 100
+2023/07/29-12:07:24.232532 2e2c            Options.write_thread_slow_yield_usec: 3
+2023/07/29-12:07:24.232537 2e2c                               Options.row_cache: None
+2023/07/29-12:07:24.232542 2e2c                              Options.wal_filter: None
+2023/07/29-12:07:24.232548 2e2c             Options.avoid_flush_during_recovery: 0
+2023/07/29-12:07:24.232554 2e2c             Options.allow_ingest_behind: 0
+2023/07/29-12:07:24.232559 2e2c             Options.two_write_queues: 0
+2023/07/29-12:07:24.232564 2e2c             Options.manual_wal_flush: 0
+2023/07/29-12:07:24.232570 2e2c             Options.wal_compression: 0
+2023/07/29-12:07:24.232575 2e2c             Options.atomic_flush: 0
+2023/07/29-12:07:24.232580 2e2c             Options.avoid_unnecessary_blocking_io: 0
+2023/07/29-12:07:24.232585 2e2c                 Options.persist_stats_to_disk: 0
+2023/07/29-12:07:24.232591 2e2c                 Options.write_dbid_to_manifest: 0
+2023/07/29-12:07:24.232596 2e2c                 Options.log_readahead_size: 0
+2023/07/29-12:07:24.232602 2e2c                 Options.file_checksum_gen_factory: Unknown
+2023/07/29-12:07:24.232607 2e2c                 Options.best_efforts_recovery: 0
+2023/07/29-12:07:24.232612 2e2c                Options.max_bgerror_resume_count: 2147483647
+2023/07/29-12:07:24.232618 2e2c            Options.bgerror_resume_retry_interval: 1000000
+2023/07/29-12:07:24.232623 2e2c             Options.allow_data_in_errors: 0
+2023/07/29-12:07:24.232632 2e2c             Options.db_host_id: __hostname__
+2023/07/29-12:07:24.232637 2e2c             Options.enforce_single_del_contracts: true
+2023/07/29-12:07:24.232643 2e2c             Options.max_background_jobs: 2
+2023/07/29-12:07:24.232648 2e2c             Options.max_background_compactions: -1
+2023/07/29-12:07:24.232659 2e2c             Options.max_subcompactions: 1
+2023/07/29-12:07:24.232664 2e2c             Options.avoid_flush_during_shutdown: 0
+2023/07/29-12:07:24.232670 2e2c           Options.writable_file_max_buffer_size: 1048576
+2023/07/29-12:07:24.232675 2e2c             Options.delayed_write_rate : 16777216
+2023/07/29-12:07:24.232680 2e2c             Options.max_total_wal_size: 0
+2023/07/29-12:07:24.232686 2e2c             Options.delete_obsolete_files_period_micros: 21600000000
+2023/07/29-12:07:24.232691 2e2c                   Options.stats_dump_period_sec: 600
+2023/07/29-12:07:24.232697 2e2c                 Options.stats_persist_period_sec: 600
+2023/07/29-12:07:24.232702 2e2c                 Options.stats_history_buffer_size: 1048576
+2023/07/29-12:07:24.232708 2e2c                          Options.max_open_files: -1
+2023/07/29-12:07:24.232713 2e2c                          Options.bytes_per_sync: 0
+2023/07/29-12:07:24.232719 2e2c                      Options.wal_bytes_per_sync: 0
+2023/07/29-12:07:24.232724 2e2c                   Options.strict_bytes_per_sync: 0
+2023/07/29-12:07:24.232729 2e2c       Options.compaction_readahead_size: 0
+2023/07/29-12:07:24.232735 2e2c                  Options.max_background_flushes: -1
+2023/07/29-12:07:24.232740 2e2c Compression algorithms supported:
+2023/07/29-12:07:24.233287 2e2c 	kZSTD supported: 1
+2023/07/29-12:07:24.233296 2e2c 	kSnappyCompression supported: 1
+2023/07/29-12:07:24.233302 2e2c 	kBZip2Compression supported: 1
+2023/07/29-12:07:24.233308 2e2c 	kZlibCompression supported: 1
+2023/07/29-12:07:24.233313 2e2c 	kLZ4Compression supported: 1
+2023/07/29-12:07:24.233318 2e2c 	kXpressCompression supported: 0
+2023/07/29-12:07:24.233366 2e2c 	kLZ4HCCompression supported: 1
+2023/07/29-12:07:24.233375 2e2c 	kZSTDNotFinalCompression supported: 1
+2023/07/29-12:07:24.234019 2e2c Fast CRC32 supported: Not supported on x86
+2023/07/29-12:07:24.234032 2e2c DMutex implementation: std::mutex
+2023/07/29-12:07:24.237198 2e2c [WARN] [db/db_impl/db_impl_open.cc:2087] DB::Open() failed: Corruption: CURRENT file corrupted
+2023/07/29-12:07:24.237802 2e2c [db/db_impl/db_impl.cc:497] Shutdown: canceling all background work
+2023/07/29-12:07:24.237893 2e2c [db/db_impl/db_impl.cc:704] Shutdown complete

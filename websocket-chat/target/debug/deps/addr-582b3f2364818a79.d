@@ -1,0 +1,11 @@
+C:\Users\Quinsant\Desktop\somechats\websocket-chat\target\debug\deps\addr-582b3f2364818a79.rmeta: C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\lib.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\dns.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\domain.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\email.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\error.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\matcher.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\parser.rs
+
+C:\Users\Quinsant\Desktop\somechats\websocket-chat\target\debug\deps\addr-582b3f2364818a79.d: C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\lib.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\dns.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\domain.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\email.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\error.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\matcher.rs C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\parser.rs
+
+C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\lib.rs:
+C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\dns.rs:
+C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\domain.rs:
+C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\email.rs:
+C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\error.rs:
+C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\matcher.rs:
+C:\Users\Quinsant\.cargo\registry\src\index.crates.io-6f17d22bba15001f\addr-0.15.6\src\parser.rs:
